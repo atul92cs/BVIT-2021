@@ -8,6 +8,15 @@
 {
     text-decoration: none;
 }
+body
+{
+    background: url('/images/laptop.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: auto;
+    text-align: center;
+    
+}
 .form-field
 {
     display: inline;
@@ -34,16 +43,12 @@
 }
 #bg-img-section 
 {
-    background: url('/images/laptop.jpeg') center center no-repeat;
-    height: 65vh;
-    width: auto;
-    text-align: center;
-    filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
-#bg-img-section h4 
-{
-    padding-top: 25vh;
-    color: aliceblue;
     
+}
+.text-section 
+{
+   text-align: center;
+   position: relative;
+   top: 60%;
+   left: 40%;  
 }
