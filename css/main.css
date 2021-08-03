@@ -8,7 +8,7 @@
 {
     text-decoration: none;
 }
-body
+/*body
 {
     background: url('/images/laptop.jpeg') center center no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ body
     width: auto;
     text-align: center;
     
-}
+}*/
 .form-field
 {
     display: inline;
@@ -51,4 +51,9 @@ body
    position: relative;
    top: 60%;
    left: 40%;  
+}
+#video-section video
+{
+    height: 25vh;
+    width: auto;
 }
