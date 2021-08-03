@@ -1,0 +1,49 @@
+#nav-menu ul li
+{
+    display:inline;
+    list-style-type: none;
+    margin-left: 5vw;
+}
+#nav-menu a 
+{
+    text-decoration: none;
+}
+.form-field
+{
+    display: inline;
+    margin-left: 2.5vw;
+}
+.btn-form-field 
+{
+    text-align: left;
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
+.footer-col 
+{
+    display: inline-block;
+    margin-left: 5vw;
+    text-align: center;
+    margin-top: 35vw;
+}
+#image-section img 
+{
+    height: 35vh;
+    width: 25vw;
+    border-radius: 80%;
+}
+#bg-img-section 
+{
+    background: url('/images/laptop.jpeg') center center no-repeat;
+    height: 65vh;
+    width: auto;
+    text-align: center;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+#bg-img-section h4 
+{
+    padding-top: 25vh;
+    color: aliceblue;
+    
+}
