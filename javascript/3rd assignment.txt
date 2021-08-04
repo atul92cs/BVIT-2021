@@ -1,0 +1,1 @@
+Create an array of objects named movies with its values name,release,year,genre,director using function to insert values in the array and display it in console?

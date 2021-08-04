@@ -57,6 +57,13 @@
         bikes.push(bike2);
         bikes.push(bike3);
         console.log(bikes);
+        bikes.map(bike=>{
+            console.log(bike.name);
+        });
+        let ktmbike=bikes.filter(bike=>{
+           return bike.company==="KTM";
+        });
+        console.log(ktmbike);
    </script> 
 </body>
 </html>
