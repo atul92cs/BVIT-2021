@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+   <h2>Object</h2>
+   <script>
+       let car={
+           name:"Punto Abbart",
+           company:"Fiat",
+           status:"Discontinued",
+           origin:"Germany"
+       };
+       console.log(typeof(car));
+       console.log(car);
+       car.release=2011;
+       console.log(car);
+       let bike={};
+       bike.name="Tiger";
+       bike.company="Truimph";
+       bike.origin="England";
+       bike.models=["800 xc","800xca","1200","900"];
+       console.log(bike);
+       bike.models.push("800 xr");
+       bike.influencers={name:"Nikhil Sharma",name:"Murtuza Junaid",year:"2016"};
+       console.log(bike);
+       console.log(car.origin);
+       let {name,company,status,origin}=car;
+       console.log(name);
+       console.log(company);
+       console.log(status);
+       console.log(origin);
+       let {influencers:{year}}=bike;
+       console.log(year);
+       let bikes=[];
+        let bike1={
+            name:"Adventure 390",
+            company:"KTM",
+            origin:"Austria",
+
+        };
+        let bike2={
+            name:"Duke 390",
+            company:"KTM",
+            origin:"Austria"
+        };
+        let bike3={
+            name:"Himlayan",
+            company:"Royal endfield",
+            origin:"India"
+        };
+        bikes.push(bike1);
+        bikes.push(bike2);
+        bikes.push(bike3);
+        console.log(bikes);
+   </script> 
+</body>
+</html>

@@ -24,6 +24,7 @@
 {
     margin:5vh 2.5vw 5vh 2.5vw;
     text-align: center;
+    background: url('/images/cover.jpg') center center no-repeat;
 }
 .movie-section 
 {
