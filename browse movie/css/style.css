@@ -36,6 +36,11 @@
     height: 25vh;
     width: auto;
 }
+#copy-rightsection img
+{
+    height: 10vh;
+    width: 15vh;
+}
 #footer 
 {
     background-color:#0e0d0d ;

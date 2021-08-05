@@ -1,0 +1,1 @@
+create an class company and inherited class car and create its related function and insert the car object in array and display the carname in the console?
