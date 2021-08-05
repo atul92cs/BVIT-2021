@@ -4,6 +4,8 @@
     display:inline-block;
     text-align: center;
     padding-left: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     margin-left: 10vw;
     margin-right: 15vw;
     background: #0e0d0d;
@@ -16,15 +18,13 @@
 {
     background: #0e0d0d;
     color: white;
-    padding: 2vh 3.5vw 2vh 3.5vw; 
-    margin-top: 0vh;
-    top:0;
+     top: 0;
 }
 .main-body 
 {
     margin:5vh 2.5vw 5vh 2.5vw;
     text-align: center;
-    background: url('/images/cover.jpg') center center no-repeat;
+    
 }
 .movie-section 
 {
