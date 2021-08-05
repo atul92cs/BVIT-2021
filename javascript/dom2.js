@@ -5,3 +5,4 @@ msg.innerHTML='<strong>Movie List</strong>';
 msg.style.color='Blue';
 msg.style.fontFamily='Sans-serif';
 msg.style.marginLeft='5vw';
+msg.style.backgroundColor='Red';
