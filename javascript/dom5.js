@@ -8,6 +8,11 @@ let movies=[
         name:'Gangs of wasseypur',
         director:'Anurag kashyap',
         industry:'Bollywood'
+    },
+    {
+        name:'Conjuring',
+        director:'James',
+        industry:'Hollywood'
     }
     
 ];

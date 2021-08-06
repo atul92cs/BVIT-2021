@@ -1,0 +1,37 @@
+.form-body
+{
+    margin: 5vh 35vw 5vh 35vw;
+    padding:5vh 20vw 5vh 10vw;
+    border: 2.5px solid black;
+}
+.form-field
+{
+    margin-bottom: 2.5vh;
+}
+.form-group
+{
+    font-size: medium;
+}
+.text-center
+{
+    margin-left: 2.5vw;
+}
+#submit-button 
+{
+    font-size: large;
+    background-color: brown;
+    color: wheat;
+    border-radius: 3px;
+    padding: 1.5vh 2.5vw 1.5vh 2.5vw;
+}
+.main-body 
+{
+    margin: 5vh 5vw 5vh 5vw;
+
+}
+.movie-div 
+{
+    display: inline-block;
+    margin-left: 2.5vw;
+    text-align: center;
+}
