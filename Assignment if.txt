@@ -1,0 +1,6 @@
+1.)Create an schema name seriesdb with table director,country,genre,series?
+2.)create table series with following columns :- name,genre,director,country,status,yor,yoe?
+3.)Select series with director name,genre,country where country is USA and status is ended ?
+4.) Select series which was telecasted between 2010 and 2021?
+5.) Select series which was telecasted between 2000 and 2010?
+
