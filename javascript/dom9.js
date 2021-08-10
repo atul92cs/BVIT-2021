@@ -92,7 +92,7 @@ let movies= [
     }
 ];
 getMovies=()=>{
-    const url='https://movie-browser-ind.herokuapp.com/';
+    const url='https://localhost:8080/movies/';
     let xhr=new XMLHttpRequest();
     xhr.open('GET',url,true); 
     xhr.onreadystatechange=()=>{
@@ -101,8 +101,8 @@ getMovies=()=>{
             //console.log(xhr.responseText);
            let response=JSON.parse(xhr.responseText);
            let {movies}=response;
-           movies.map(movie=>{
-            let {name,director,genre}=movie;
+           movies.forEach(movie=>{
+            let {name,director,genre,picture}=movie;
         let moviediv=document.createElement('div');
         moviediv.classList.add('movie-div');
         let nametitle=document.createElement('h2');
@@ -117,7 +117,11 @@ getMovies=()=>{
         genretitle.classList.add('genre');
         let genrevl=document.createTextNode(genre);
         genretitle.appendChild(genrevl);
+        let moviepic=document.createElement('img');
+        moviepic.classList.add('movie-poster');
+        moviepic.src=picture;
         let body=document.querySelector('.main-body');
+        moviediv.appendChild(moviepic);
         moviediv.appendChild(nametitle);
         moviediv.appendChild(directortitle);
         moviediv.appendChild(genretitle);

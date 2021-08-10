@@ -1,0 +1,4 @@
+1.)create an schema bikedb with tables company,bike,country?
+2.) select bike from specific country with their company name and founding year?
+3.)select bike from spsecific country with their status ?
+4.) select company from specific country ?  

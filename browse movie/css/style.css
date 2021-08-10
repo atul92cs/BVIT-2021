@@ -13,7 +13,11 @@
     
 }
 
-
+.nav-menu:hover
+{
+    color: red;
+    font-size: x-large;
+}
 .navbar 
 {
     background: #0e0d0d;

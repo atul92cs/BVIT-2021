@@ -35,3 +35,14 @@
     margin-left: 2.5vw;
     text-align: center;
 }
+.movie-poster
+{
+    height: 15vh;
+    text-align: center;
+    width: auto;
+}
+.form-group
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
