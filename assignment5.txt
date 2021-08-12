@@ -1,2 +1,0 @@
-create front end pages using html,css,javascript for the given api ?
-https://movie-browser-ind.herokuapp.com/
