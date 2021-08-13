@@ -91,7 +91,7 @@ let movies= [
         "director": "Christopher Nolan"
     }
 ];
-getMovies=()=>{
+/*getMovies=()=>{
     const url='https://localhost:8080/movies/';
     let xhr=new XMLHttpRequest();
     xhr.open('GET',url,true); 
@@ -138,11 +138,11 @@ getMovies=()=>{
     }
     xhr.send();
 }
-getMovies();
+getMovies();*/
 
-//getMovies();
-   /* movies.map(movie=>{
-        let {name,director,genre}=movies;
+getMovies=()=>{
+    movies.map(movie=>{
+        let {name,director,genre}=movie;
     let moviediv=document.createElement('div');
     moviediv.classList.add('movie-div');
     let nametitle=document.createElement('h2');
@@ -162,4 +162,6 @@ getMovies();
     moviediv.appendChild(directortitle);
     moviediv.appendChild(genretitle);
     body.appendChild(moviediv);
-    });*/
+    });
+}
+    getMovies();
