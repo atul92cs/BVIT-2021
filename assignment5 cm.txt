@@ -1,2 +1,4 @@
 create front end pages using html,css,javascript for the given api ?
 https://bluecollarsclientwork.000webhostapp.com/carbrowser/getcars.php
+
+The routes are explained on your class . Use the routes and make the front end using the same

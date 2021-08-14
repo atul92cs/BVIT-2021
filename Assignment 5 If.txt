@@ -1,0 +1,5 @@
+create frontend using html,css,javascript for the following api ?
+
+https://bluecollarsclientwork.000webhostapp.com/seriesbrowser/getseries.php
+
+the functions are explained in the class so use that routes and make the frontend
