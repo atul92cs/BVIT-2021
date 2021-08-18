@@ -43,10 +43,11 @@ createArtist=(e)=>{
         if(xhr.readyState==4||xhr.responseText==200)
         {
             let message=document.createElement('h2');
-            let msgtxt=document.createTextNode('Artist created');
+            let msgtxt=document.createTextNode(`Artisct created please go to index page for the output`);
             let msgarea=document.querySelector('#message-area');
             message.appendChild(msgtxt);
             msgarea.appendChild(message);
+           // window.location.replace('index.html');
         }
         else
         {

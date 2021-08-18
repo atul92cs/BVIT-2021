@@ -9,7 +9,7 @@ getArtist=()=>{
         let response=JSON.parse(xhr.responseText);
         let {artist}=response;
         //console.log(xhr.responseText);
-        artist.forEach(ar=>{
+        artist.map(ar=>{
             let artilabel=document.createElement('h2');
             let artiname=document.createTextNode(ar.name);
             let genlabel=document.createElement('p');
